@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.1"
+    defaultConfig {
+        applicationId "com.megamind.abdul.system"
+        minSdkVersion 16
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
+
+    compile 'com.android.volley:volley:1.0.0'
+    compile 'me.everything:providers-android:1.0.1'
+
+    //apache common's library
+    compile 'commons-net:commons-net:3.5'
+    compile 'commons-io:commons-io:2.5'
+
+
+}
+
+
+apply plugin: 'com.google.gms.google-services'

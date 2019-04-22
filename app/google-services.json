@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "425290131102",
+    "firebase_url": "https://megamind-d166a.firebaseio.com",
+    "project_id": "megamind-d166a",
+    "storage_bucket": "megamind-d166a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425290131102:android:430254be038f06d9",
+        "android_client_info": {
+          "package_name": "com.megamind.abdul.system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425290131102-73o0vah2ebikcfjreing5ch8v4cuscvf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.megamind.abdul.system",
+            "certificate_hash": "3E2F2D523ACC2BEB63A279F8CB3413ABB88C914E"
+          }
+        },
+        {
+          "client_id": "425290131102-gdfsfa2gq24jpd7n1sac7spdfcpp0767.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8rajnwce6jhz1qaU-BQIJe-bWhiH2i_g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425290131102-gdfsfa2gq24jpd7n1sac7spdfcpp0767.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
